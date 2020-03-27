@@ -10,12 +10,12 @@ body {
 .wrapper {
   width: 60%;
   margin: 3rem auto;
+  background-color: white;
+  padding: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  background-color: white;
-  padding: 40px;
 }
 
 .wrapper div {
