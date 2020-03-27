@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  background-color: hsl(42, 73%, 90%);
+}
+
+.wrapper {
+  width: 60%;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  background-color: white;
+  padding: 40px;
+}
+
+.wrapper div {
+  height: 200px;
+  background-color: #756f5d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f8f1ed;
+  font-size: 1.3rem;
+  border-radius: 4px;
+}
