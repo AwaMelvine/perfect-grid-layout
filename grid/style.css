@@ -37,12 +37,17 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 
-
-.wrapper div {
-  height: 250px;
-}
-
+  .wrapper div {
+    height: 250px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .wrapper div {
+    height: 250px;
+  }
 }
