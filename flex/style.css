@@ -9,17 +9,17 @@ body {
 
 .wrapper {
   width: 60%;
-  margin: 40px auto;
-  padding: 40px;
+  margin: 3rem auto;
+  padding: 3rem;
   background-color: white;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .wrapper div {
   height: 200px;
-  flex-basis: 30%;
+  flex-basis: 31.5%;
   margin-bottom: 20px;
   background-color: #756f5d;
   display: flex;

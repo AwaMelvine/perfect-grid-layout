@@ -9,9 +9,9 @@ body {
 
 .wrapper {
   width: 60%;
+  padding: 3rem;
   margin: 3rem auto;
   background-color: white;
-  padding: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 20px;
