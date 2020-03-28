@@ -1,4 +1,4 @@
-const data = ['A', 'B', 'C', 'D', 'E', 'F', 'D', 'H'];
+const data = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
 const wrapper = document.querySelector('.wrapper');
 
 data.forEach(letter => {
