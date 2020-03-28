@@ -30,11 +30,21 @@ body {
   border-radius: 4px;
 }
 
+.wrapper div.empty {
+  background-color: unset;
+}
+
 @media only screen and (max-width: 700px) {
   .wrapper {
+    width: 98%;
+    margin: 1rem auto;
+    padding: 20px;
+    justify-content: space-between;
   }
 
   .wrapper div {
+    height: 250px;
+    flex-basis: 48.1%;
   }
 }
 
