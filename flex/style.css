@@ -49,9 +49,8 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
-  .wrapper {
-  }
-
   .wrapper div {
+    height: 300px;
+    flex-basis: 100%;
   }
 }
