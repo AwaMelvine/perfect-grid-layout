@@ -4,7 +4,7 @@
 
 body {
   margin: 0px;
-  background-color: hsl(42, 73%, 90%);
+  background-color: #f8edd3;
 }
 
 .wrapper {
@@ -28,6 +28,7 @@ body {
   color: #f8f1ed;
   font-size: 1.3rem;
   border-radius: 4px;
+  margin-bottom: 20px;
 }
 
 .wrapper div.empty {
@@ -44,7 +45,7 @@ body {
 
   .wrapper div {
     height: 250px;
-    flex-basis: 48.1%;
+    flex-basis: 48.5%;
   }
 }
 
